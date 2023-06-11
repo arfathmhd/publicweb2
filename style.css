@@ -1,0 +1,542 @@
+:root{
+  --font-family:Roboto,Helvetica Neue,Arial;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0px;
+        height: 365rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h2,h3,h5,h4{
+  margin: 0;
+}
+
+/* ---------------------------------------------------- */
+
+
+/* header area */
+
+header{
+  background-color: #181818;
+  width: 100%;
+  height: 95px;
+  font-family:  Roboto,Helvetica Neue,Arial;
+  font-size: 1rem;
+  font-weight: 400;
+  position: fixed;
+  z-index: 30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo img{
+  position: relative;
+  left: 61px;
+  width: 56px;
+}
+.nav1 ul li{
+  display: inline;
+  color: #fff;
+  margin: 14px;
+  position: relative;
+  left: -215px;
+  cursor: pointer;
+}
+.nav2 ul li{
+  display: inline;
+  color: #fff;
+  margin: 14px;
+  position: relative;
+    left: 165px;
+    cursor: pointer;
+}
+.iconn{
+  position: relative;
+  left: -58px; 
+  cursor: pointer;
+}
+
+
+
+
+/*header end  */
+/* ------------------------------------------------------------------ */
+
+/* section 1 */
+section{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: -2rem;
+  z-index: 1;
+  overflow:hidden;
+}
+.banner{
+  background-repeat: no-repeat;
+  background-image: url("./image/photo1.webp");
+  
+}
+
+.sec h2{
+ position: relative;
+    top: 21rem;
+    left: 10rem;
+    font-size: 108px;
+    font-family: Roboto,Helvetica Neue,Arial;
+    color: #fff;
+    line-height: 93px;
+    letter-spacing: 1px;
+}
+.sec h3{
+  position: relative;
+  top: 347px;
+  left: 166px;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  line-height: 89px;
+  letter-spacing: 2px;
+}
+/* end section 1 */
+/* -------------------------------------------------------------- */
+
+/* section 2 */
+
+.main img{
+  height: 56rem;
+}
+.hero1 img{
+  position: absolute;
+  left: 40rem;
+  
+  
+}
+.hero2 img{
+  position: absolute;
+  z-index: 1;
+  left: -38rem;
+  transform: skew(-20deg);
+  filter: brightness(0.5);
+   
+}
+.hero3 img{
+  position: absolute;
+  z-index: 0;
+  left: 16rem;
+  transform: skew(-19deg);
+  filter: brightness(0.5);
+  
+}
+.power h2{
+  position: relative;
+  top: 29rem;
+  left: 9rem;
+  color: white;
+  z-index: 2;
+  font-size: 7.6rem;
+  font-weight: bold;
+  line-height: 0.9;
+  letter-spacing: -1.5px;
+  font-family: var(--font-family);
+}
+.power h5{
+  position: relative;
+    top: 29rem;
+    left: 9rem;
+    color: white;
+    z-index: 2;
+    font-size: 30.6px;
+    font-weight: bold;
+    line-height: 2.9;
+    letter-spacing: 2.5px;
+    font-family: var(--font-family);
+}
+.power h4{
+  position: relative;
+  top: 8rem;
+  left: 9rem;
+  color: white;
+  z-index: 2;
+  font-size: 32.6px;
+  font-weight: bold;
+  line-height: 2.9;
+  letter-spacing: 2.5px;
+  font-family: var(--font-family);
+}
+/* section 2 end */
+/* --------------------------------------------------------------------- */
+/* section 3 */
+.sec3{
+  position: relative;
+  top: -5rem;
+  z-index: 1;
+}
+.banner2{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.revalto{
+  position: absolute;
+  z-index: 1;
+}
+.revalto2 h2{
+
+  width: 100rem;
+  position: absolute;
+  z-index: 2;
+  left: 10rem;
+  font-family: var(--font-family);
+  top: 134px;
+  font-size: 32px;
+  font-weight: 1000;
+  line-height: 52px;
+}
+.revalto3 h2{
+  width: 100rem;
+  position: absolute;
+  z-index: 2;
+  left: 10rem;
+  font-family: var(--font-family);
+  top: 184px;
+  font-size: 72px;
+  font-weight: bold;
+}
+.revalto4{
+  width: 100rem;
+  position: absolute;
+  z-index: 2;
+}
+.revalto4 ul li{
+  display: inline;
+  position: relative;
+  top: 454px;
+  left: 6rem;
+  margin: 2rem;
+  color: rgba(32, 32, 32, 0.7);
+  font-family: var(--font-family);
+  font-size: 1.1;
+  font-size: 15.6px;
+  font-weight: 300;
+}
+hr{
+  width: 338px;
+  background: 1px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 4;
+  left: 168px;
+  top: 491px;
+}
+/* section 3 end */
+/* --------------------------------------------------------------------------- */
+/* section 4 */
+.sec4{
+  position: relative;
+  top: -633px;
+  z-index: -1;
+}
+.revalto5 img{
+  position: absolute;
+  z-index:1 ;
+}
+.revalto6 h2{
+      position: relative;
+    z-index: 2;
+    top: 30rem;
+    left: 9rem;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.12rem;
+    font-family: var(--font-family);
+
+}
+.revalto7 h2{
+  position: relative;
+  z-index: 2;
+  top: 32rem;
+  left: 9rem;
+  color: #fff;
+  font-size: 4.6rem;
+  line-height: 0.97;
+  font-family: var(--font-family);
+}
+/* section 4 end */
+/* ----------------------------------------------------------------------------------- */
+/* section 5 */
+.sec5{
+
+  position: relative;
+  top: -633px;
+}
+.revalto8 h2{
+  position: relative;
+  left: 19rem;
+  top: 7rem;
+  font-family: var(--font-family);
+  font-size: 30px;
+}
+.revalto9 h2{
+  position: relative;
+  left: 19rem;
+  top: 8rem;
+  font-size: 6.6rem;
+  font-weight: bold;
+  font-family: var(--font-family);
+  }
+  .revalto10 img{
+    position: relative;
+    top: 10rem;
+    left: 19rem;
+    width: 75rem;
+  }
+
+/* section 5 end*/
+/* ---------------------------------------------------------------------------------------------- */
+/* section 6 */
+.sec6{
+  position: relative;
+  top: -55rem;
+}
+.revalto11 h2{
+    font-family: var(--font-family);
+    position: relative;
+    left: 19rem;
+    top: 13rem;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+  .revalto12 .btn{
+  position: relative;
+    top: 14rem;
+    left: 19rem;
+    padding: 6px;
+    width: 7rem;
+    border: none;
+    cursor: pointer;
+  }
+  .revalto12 .btn:hover{
+    background: black;
+    color: #fff;
+  }
+  .revalto13 .btn{
+  position: relative;
+  left: 82rem;
+  top: 13rem;
+  width: 12rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid rgba(32, 32, 32, 0.7);
+  cursor: pointer;
+  }
+  .revalto13 .btn:hover{
+    background: black;
+    color: #fff;
+  }
+  .revalto14 h2{
+    position: relative;
+    top: 16rem;
+    left: 304px;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    font-weight: 105px;
+    letter-spacing: 1px;
+  }
+  .revalto15 p{
+    position: relative;
+    top: 14rem;
+    left: 19rem;
+    color: rgba(32, 32, 32, 0.7);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 33px;
+  }
+  .revalto16 img{
+    width: 41rem;
+    position: relative;
+    top: 16rem;
+    left: 19rem;
+  }
+
+  /* section 6 end */
+  /* -------------------------------------------------------------- */
+  /* section 7 */
+  .sec7{
+    position: relative;
+    top: -74rem;
+  }
+  .revalto17{
+    position: relative;
+    left: 68rem;
+    top: -91px;
+    font-family: var(--font-family);
+  }
+  .revalto17 p{
+    position: relative;
+    left: -85px;
+    top: 36px;
+  }
+  .revalto18 h2{
+    position: relative;
+    left: 63rem;
+    font-family: var(--font-family);
+  }
+
+  .revalto20 img{
+    width: 41rem;
+    position: relative;
+    top: 16rem;
+    left: 19rem;
+    
+  }
+
+  .revalto19 .btn{
+    position: relative;
+    left: 63rem;
+    top: 5rem;
+    width: 12rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgba(32, 32, 32, 0.7);
+  }
+.revalto19 .btn:hover{
+    background: black;
+    color: #fff;
+  }
+  .revalto21 p{
+    position: relative;
+    left: 63rem;
+    top: -49px;
+    font-family: var(--font-family);
+  }
+  .revalto22 h2{
+    position: relative;
+    left: 63rem;
+    font-family: var(--font-family);
+  }
+  .revalto23 .btn{
+    position: relative;
+    left: 63rem;
+    top: 5rem;
+    width: 12rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgba(32, 32, 32, 0.7);
+  }
+  .revalto23 .btn:hover{
+    background: black;
+    color: #fff;
+  }
+  .revalto24 .btn{
+    position: relative;
+    left: 54rem;
+    top: 12rem;
+    width: 14rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid rgba(32, 32, 32, 0.7);
+    color: white
+    
+  }
+  .revalto24 .btn:hover{
+    background: #fff;
+    color: black;
+  }
+  /* section 7 end */
+  /* -------------------------------------------------------------- */
+  footer{
+    width: 100%;
+    background: #181818;
+    height: 21rem;
+    position: relative;
+    top: -78rem;
+    overflow: hidden;
+    z-index: 10;
+  }
+  .foot ul li{
+    color: #fff;
+    list-style: none;
+    display: inline;
+    margin: 17px;
+    position: relative;
+    top: 1rem;
+    font-family: var(--font-family);
+    line-height: 3rem;
+    left: 8rem;
+    
+    
+  }
+  .foot1 p{
+    position: relative;
+    top: 13px;
+    color: #fff;
+    line-height: 31px;
+    left: 174px;
+    font-family: var(--font-family);
+    font-size: 14px; 
+  }
+  .foot2 p{
+    position: relative;
+    top: 26px;
+    color: #fff;
+    line-height: 26px;
+    left: 178px;
+    font-family: var(--font-family);
+    font-size: 16px;
+
+  }
+  .foot3{
+    position: fixed;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    z-index: 90;
+    width: 100%;
+    bottom: -1px;
+    height: 40px;
+  }
+  .foot3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .footlist li{
+    cursor: pointer;
+  }
+
+  .sec6{
+    z-index: 5;
+    cursor: pointer;
+  }
+  .fafa{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: -9rem;
+    top: 73px;
+    gap: 24px;
+   
+
+  }
+
+
+
+
+
+
+
